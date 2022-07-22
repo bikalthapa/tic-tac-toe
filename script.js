@@ -254,7 +254,79 @@ let turnc = document.getElementById("winnerc");
       box1c.innerHTML = "x";
       box1c.style.pointerEvents="none";
          // nested if else for computer input(01)
-   if(box2c.innerHTML=="x" && box3c.innerHTML==""){
+         if(box6c.innerHTML=="o" && box5c.innerHTML=="o" && box4c.innerHTML==""){
+            box4c.innerHTML = "o";
+            box4c.style.pointerEvents = "none";
+         }else if(box6c.innerHTML=="o" && box5c.innerHTML=="" && box4c.innerHTML=="o"){
+            box4c.innerHTML = "o";
+            box4c.style.pointerEvents = "none";
+         }else if(box6c.innerHTML=="" && box5c.innerHTML=="o" && box4c.innerHTMl=="o"){
+            box6c.innerHTML = "o";
+            box6c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="o" && box2c.innerHTML=="o" && box3c.innerHTML==""){
+            box3c.innerHTML = "o";
+            box3c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="o" && box2c.innerHTML=="" && box3c.innerHTML=="o"){
+            box2c.innerHTML = "o";
+            box2c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="" && box2c.innerHTML=="o" && box3c.innerHTML=="o"){
+            box1c.innerHTML = "o";
+            box1c.style.pointerEvents = "none";
+         }else if(box7c.innerHTML=="o" && box8c.innerHTML=="o" && box9c.innerHTML==""){
+            box9c.innerHTML = "o";
+            box9c.style.pointerEvents = "none";
+         }else if(box7c.innerHTML=="o" && box8c.innerHTML=="" && box9c.innerHTML=="o"){
+            box8c.innerHTML = "o";
+            box8c.style.pointerEvents = "none";
+         }else if(box7c.innerHTML=="" && box8c.innerHTML=="o" && box9c.innerHTML=="o"){
+            box7c.innerHTML = "o";
+            box7c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="" && box4c.innerHTML=="o" && box7c.innerHTML=="o"){
+            box1c.innerHTML = "o";
+            box1c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="o" && box4c.innerHTML=="" && box7c.innerHTML=="o"){
+            box4c.innerHTML = "o";
+            box4c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="o" && box4c.innerHTML=="o" && box7c.innerHTML==""){
+            box7c.innerHTML = "o";
+            box7c.style.pointerEvents = "none";
+         }else if(box2c.innerHTML=="" && box5c.innerHTML=="o" && box8c.innerHTML=="o"){
+            box2c.innerHTML = "o";
+            box2c.style.pointerEvents = "none";
+         }else if(box2c.innerHTML=="o" && box5c.innerHTML=="" && box8c.innerHTML=="o"){
+            box5c.innerHTML = "o";
+            box5c.style.pointerEvents = "none";
+         }else if(box2c.innerHTML=="o" && box5c.innerHTML=="o" && box8c.innerHTML==""){
+            box8c.innerHTML = "o";
+            box8c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML=="" && box6c.innerHTML=="o" && box9c.innerHTML=="o"){
+            box3c.innerHTML = "o";
+            box3c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML=="o" && box6c.innerHTML=="" && box9c.innerHTML=="o"){
+            box6c.innerHTML = "o";
+            box6c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML=="o" && box6c.innerHTML=="o" && box9c.innerHTML==""){
+            box9c.innerHTML = "o";
+            box9c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="" && box5c.innerHTML=="o" && box9c.innerHTML=="o"){
+            box1c.innerHTML = "o";
+            box1c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="o" && box5c.innerHTML=="" && box9c.innerHTML=="o"){
+            box5c.innerHTML = "o";
+            box5c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="o" && box5c.innerHTML=="o" && box9c.innerHTML==""){
+            box9c.innerHTML = "o";
+            box9c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML=="" && box5c.innerHTML=="o" && box7c.innerHTML=="o"){
+            box3c.innerHTML = "o";
+            box3c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML=="o" && box5c.innerHTML=="" && box7c.innerHTML=="o"){
+            box5c.innerHTML = "o";
+            box5c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML=="o" && box5c.innerHTML=="o" && box7c.innerHTML==""){
+            box7c.innerHTML = "o";
+            box7c.style.pointerEvents = "none";
+         }else if(box2c.innerHTML=="x" && box3c.innerHTML==""){
       box3c.innerHTML = "o";
       box3c.style.pointerEvents="none";
    }else if(box2c.innerHTML=="" && box3c.innerHTML=="x"){
@@ -322,10 +394,79 @@ let turnc = document.getElementById("winnerc");
       box2c.innerHTML = "x";
       box2c.style.pointerEvents="none";
          // nested if else for computer input(02)
-   if(box3c.innerHTML=="x"&&box1c.innerHTML==""){
-      box1c.innerHTML = "o";
-      box1c.style.pointerEvents="none";
-   }else if(box3c.innerHTML==""&&box1c.innerHTML=="x"){
+         if(box6c.innerHTML=="o" && box5c.innerHTML=="o" && box4c.innerHTML==""){
+            box4c.innerHTML = "o";
+            box4c.style.pointerEvents = "none";
+         }else if(box6c.innerHTML=="o" && box5c.innerHTML=="" && box4c.innerHTML=="o"){
+            box4c.innerHTML = "o";
+            box4c.style.pointerEvents = "none";
+         }else if(box6c.innerHTML=="" && box5c.innerHTML=="o" && box4c.innerHTMl=="o"){
+            box6c.innerHTML = "o";
+            box6c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="o" && box2c.innerHTML=="o" && box3c.innerHTML==""){
+            box3c.innerHTML = "o";
+            box3c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="o" && box2c.innerHTML=="" && box3c.innerHTML=="o"){
+            box2c.innerHTML = "o";
+            box2c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="" && box2c.innerHTML=="o" && box3c.innerHTML=="o"){
+            box1c.innerHTML = "o";
+            box1c.style.pointerEvents = "none";
+         }else if(box7c.innerHTML=="o" && box8c.innerHTML=="o" && box9c.innerHTML==""){
+            box9c.innerHTML = "o";
+            box9c.style.pointerEvents = "none";
+         }else if(box7c.innerHTML=="o" && box8c.innerHTML=="" && box9c.innerHTML=="o"){
+            box8c.innerHTML = "o";
+            box8c.style.pointerEvents = "none";
+         }else if(box7c.innerHTML=="" && box8c.innerHTML=="o" && box9c.innerHTML=="o"){
+            box7c.innerHTML = "o";
+            box7c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="" && box4c.innerHTML=="o" && box7c.innerHTML=="o"){
+            box1c.innerHTML = "o";
+            box1c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="o" && box4c.innerHTML=="" && box7c.innerHTML=="o"){
+            box4c.innerHTML = "o";
+            box4c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="o" && box4c.innerHTML=="o" && box7c.innerHTML==""){
+            box7c.innerHTML = "o";
+            box7c.style.pointerEvents = "none";
+         }else if(box2c.innerHTML=="" && box5c.innerHTML=="o" && box8c.innerHTML=="o"){
+            box2c.innerHTML = "o";
+            box2c.style.pointerEvents = "none";
+         }else if(box2c.innerHTML=="o" && box5c.innerHTML=="" && box8c.innerHTML=="o"){
+            box5c.innerHTML = "o";
+            box5c.style.pointerEvents = "none";
+         }else if(box2c.innerHTML=="o" && box5c.innerHTML=="o" && box8c.innerHTML==""){
+            box8c.innerHTML = "o";
+            box8c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML=="" && box6c.innerHTML=="o" && box9c.innerHTML=="o"){
+            box3c.innerHTML = "o";
+            box3c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML=="o" && box6c.innerHTML=="" && box9c.innerHTML=="o"){
+            box6c.innerHTML = "o";
+            box6c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML=="o" && box6c.innerHTML=="o" && box9c.innerHTML==""){
+            box9c.innerHTML = "o";
+            box9c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="" && box5c.innerHTML=="o" && box9c.innerHTML=="o"){
+            box1c.innerHTML = "o";
+            box1c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="o" && box5c.innerHTML=="" && box9c.innerHTML=="o"){
+            box5c.innerHTML = "o";
+            box5c.style.pointerEvents = "none";
+         }else if(box1c.innerHTML=="o" && box5c.innerHTML=="o" && box9c.innerHTML==""){
+            box9c.innerHTML = "o";
+            box9c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML=="" && box5c.innerHTML=="o" && box7c.innerHTML=="o"){
+            box3c.innerHTML = "o";
+            box3c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML=="o" && box5c.innerHTML=="" && box7c.innerHTML=="o"){
+            box5c.innerHTML = "o";
+            box5c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML=="o" && box5c.innerHTML=="o" && box7c.innerHTML==""){
+            box7c.innerHTML = "o";
+            box7c.style.pointerEvents = "none";
+         }else if(box3c.innerHTML==""&&box1c.innerHTML=="x"){
       box3c.innerHTML = "o";
       box3c.style.pointerEvents="none";
    }else if(box5c.innerHTML=="x"&&box8c.innerHTML==""){
@@ -381,7 +522,79 @@ function box3c(){
       box3c.innerHTML = "x";
       box3c.style.pointerEvents="none";
   // nested if else for computer input(03)
-  if(box1c.innerHTML=="x" && box2c.innerHTML==""){
+  if(box6c.innerHTML=="o" && box5c.innerHTML=="o" && box4c.innerHTML==""){
+   box4c.innerHTML = "o";
+   box4c.style.pointerEvents = "none";
+}else if(box6c.innerHTML=="o" && box5c.innerHTML=="" && box4c.innerHTML=="o"){
+   box4c.innerHTML = "o";
+   box4c.style.pointerEvents = "none";
+}else if(box6c.innerHTML=="" && box5c.innerHTML=="o" && box4c.innerHTMl=="o"){
+   box6c.innerHTML = "o";
+   box6c.style.pointerEvents = "none";
+}else if(box1c.innerHTML=="o" && box2c.innerHTML=="o" && box3c.innerHTML==""){
+   box3c.innerHTML = "o";
+   box3c.style.pointerEvents = "none";
+}else if(box1c.innerHTML=="o" && box2c.innerHTML=="" && box3c.innerHTML=="o"){
+   box2c.innerHTML = "o";
+   box2c.style.pointerEvents = "none";
+}else if(box1c.innerHTML=="" && box2c.innerHTML=="o" && box3c.innerHTML=="o"){
+   box1c.innerHTML = "o";
+   box1c.style.pointerEvents = "none";
+}else if(box7c.innerHTML=="o" && box8c.innerHTML=="o" && box9c.innerHTML==""){
+   box9c.innerHTML = "o";
+   box9c.style.pointerEvents = "none";
+}else if(box7c.innerHTML=="o" && box8c.innerHTML=="" && box9c.innerHTML=="o"){
+   box8c.innerHTML = "o";
+   box8c.style.pointerEvents = "none";
+}else if(box7c.innerHTML=="" && box8c.innerHTML=="o" && box9c.innerHTML=="o"){
+   box7c.innerHTML = "o";
+   box7c.style.pointerEvents = "none";
+}else if(box1c.innerHTML=="" && box4c.innerHTML=="o" && box7c.innerHTML=="o"){
+   box1c.innerHTML = "o";
+   box1c.style.pointerEvents = "none";
+}else if(box1c.innerHTML=="o" && box4c.innerHTML=="" && box7c.innerHTML=="o"){
+   box4c.innerHTML = "o";
+   box4c.style.pointerEvents = "none";
+}else if(box1c.innerHTML=="o" && box4c.innerHTML=="o" && box7c.innerHTML==""){
+   box7c.innerHTML = "o";
+   box7c.style.pointerEvents = "none";
+}else if(box2c.innerHTML=="" && box5c.innerHTML=="o" && box8c.innerHTML=="o"){
+   box2c.innerHTML = "o";
+   box2c.style.pointerEvents = "none";
+}else if(box2c.innerHTML=="o" && box5c.innerHTML=="" && box8c.innerHTML=="o"){
+   box5c.innerHTML = "o";
+   box5c.style.pointerEvents = "none";
+}else if(box2c.innerHTML=="o" && box5c.innerHTML=="o" && box8c.innerHTML==""){
+   box8c.innerHTML = "o";
+   box8c.style.pointerEvents = "none";
+}else if(box3c.innerHTML=="" && box6c.innerHTML=="o" && box9c.innerHTML=="o"){
+   box3c.innerHTML = "o";
+   box3c.style.pointerEvents = "none";
+}else if(box3c.innerHTML=="o" && box6c.innerHTML=="" && box9c.innerHTML=="o"){
+   box6c.innerHTML = "o";
+   box6c.style.pointerEvents = "none";
+}else if(box3c.innerHTML=="o" && box6c.innerHTML=="o" && box9c.innerHTML==""){
+   box9c.innerHTML = "o";
+   box9c.style.pointerEvents = "none";
+}else if(box1c.innerHTML=="" && box5c.innerHTML=="o" && box9c.innerHTML=="o"){
+   box1c.innerHTML = "o";
+   box1c.style.pointerEvents = "none";
+}else if(box1c.innerHTML=="o" && box5c.innerHTML=="" && box9c.innerHTML=="o"){
+   box5c.innerHTML = "o";
+   box5c.style.pointerEvents = "none";
+}else if(box1c.innerHTML=="o" && box5c.innerHTML=="o" && box9c.innerHTML==""){
+   box9c.innerHTML = "o";
+   box9c.style.pointerEvents = "none";
+}else if(box3c.innerHTML=="" && box5c.innerHTML=="o" && box7c.innerHTML=="o"){
+   box3c.innerHTML = "o";
+   box3c.style.pointerEvents = "none";
+}else if(box3c.innerHTML=="o" && box5c.innerHTML=="" && box7c.innerHTML=="o"){
+   box5c.innerHTML = "o";
+   box5c.style.pointerEvents = "none";
+}else if(box3c.innerHTML=="o" && box5c.innerHTML=="o" && box7c.innerHTML==""){
+   box7c.innerHTML = "o";
+   box7c.style.pointerEvents = "none";
+}else if(box1c.innerHTML=="x" && box2c.innerHTML==""){
    box2c.innerHTML = "o";
    box2c.style.pointerEvents="none";
   }else if(box1c.innerHTML=="" && box2c.innerHTML=="x"){
@@ -447,9 +660,78 @@ function box4c(){
       box4c.innerHTML = "x";
       box4c.style.pointerEvents="none";
       //nested if else (04)
-      if(box1c.innerHTML=="x" && box7c.innerHTML==""){
+      if(box6c.innerHTML=="o" && box5c.innerHTML=="o" && box4c.innerHTML==""){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box6c.innerHTML=="o" && box5c.innerHTML=="" && box4c.innerHTML=="o"){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box6c.innerHTML=="" && box5c.innerHTML=="o" && box4c.innerHTMl=="o"){
+         box6c.innerHTML = "o";
+         box6c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box2c.innerHTML=="o" && box3c.innerHTML==""){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box2c.innerHTML=="" && box3c.innerHTML=="o"){
+         box2c.innerHTML = "o";
+         box2c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box2c.innerHTML=="o" && box3c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="o" && box8c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="o" && box8c.innerHTML=="" && box9c.innerHTML=="o"){
+         box8c.innerHTML = "o";
+         box8c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="" && box8c.innerHTML=="o" && box9c.innerHTML=="o"){
          box7c.innerHTML = "o";
-         box7c.style.pointerEvents="none";
+         box7c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box4c.innerHTML=="o" && box7c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box4c.innerHTML=="" && box7c.innerHTML=="o"){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box4c.innerHTML=="o" && box7c.innerHTML==""){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="" && box5c.innerHTML=="o" && box8c.innerHTML=="o"){
+         box2c.innerHTML = "o";
+         box2c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="o" && box5c.innerHTML=="" && box8c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="o" && box5c.innerHTML=="o" && box8c.innerHTML==""){
+         box8c.innerHTML = "o";
+         box8c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="" && box6c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box6c.innerHTML=="" && box9c.innerHTML=="o"){
+         box6c.innerHTML = "o";
+         box6c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box6c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box5c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box5c.innerHTML=="" && box9c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box5c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="" && box5c.innerHTML=="o" && box7c.innerHTML=="o"){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box5c.innerHTML=="" && box7c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box5c.innerHTML=="o" && box7c.innerHTML==""){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
       }else if(box1c.innerHTML=="" && box7c.innerHTML=="x"){
          box1c.innerHTML = "o";
          box1c.style.pointerEvents="none";
@@ -509,7 +791,79 @@ function box5c(){
       box5c.innerHTML = "x";
       box5c.style.pointerEvents="none";
       // nested if else for computer input (05)
-      if(box2c.innerHTML=="x" && box8c.innerHTML==""){
+      if(box6c.innerHTML=="o" && box5c.innerHTML=="o" && box4c.innerHTML==""){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box6c.innerHTML=="o" && box5c.innerHTML=="" && box4c.innerHTML=="o"){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box6c.innerHTML=="" && box5c.innerHTML=="o" && box4c.innerHTMl=="o"){
+         box6c.innerHTML = "o";
+         box6c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box2c.innerHTML=="o" && box3c.innerHTML==""){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box2c.innerHTML=="" && box3c.innerHTML=="o"){
+         box2c.innerHTML = "o";
+         box2c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box2c.innerHTML=="o" && box3c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="o" && box8c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="o" && box8c.innerHTML=="" && box9c.innerHTML=="o"){
+         box8c.innerHTML = "o";
+         box8c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="" && box8c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box4c.innerHTML=="o" && box7c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box4c.innerHTML=="" && box7c.innerHTML=="o"){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box4c.innerHTML=="o" && box7c.innerHTML==""){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="" && box5c.innerHTML=="o" && box8c.innerHTML=="o"){
+         box2c.innerHTML = "o";
+         box2c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="o" && box5c.innerHTML=="" && box8c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="o" && box5c.innerHTML=="o" && box8c.innerHTML==""){
+         box8c.innerHTML = "o";
+         box8c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="" && box6c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box6c.innerHTML=="" && box9c.innerHTML=="o"){
+         box6c.innerHTML = "o";
+         box6c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box6c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box5c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box5c.innerHTML=="" && box9c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box5c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="" && box5c.innerHTML=="o" && box7c.innerHTML=="o"){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box5c.innerHTML=="" && box7c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box5c.innerHTML=="o" && box7c.innerHTML==""){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="x" && box8c.innerHTML==""){
          box8c.innerHTML = "o";
          box8c.style.pointerEvents="none";
       }else if(box2c.innerHTML=="" && box8c.innerHTML=="x"){
@@ -583,7 +937,79 @@ function box6c(){
       box6c.innerHTML = "x";
       box6c.style.pointerEvents="none";
       // nested if else for computer input (06)
-      if(box3c.innerHTML=="x" && box9c.innerHTML==""){
+      if(box6c.innerHTML=="o" && box5c.innerHTML=="o" && box4c.innerHTML==""){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box6c.innerHTML=="o" && box5c.innerHTML=="" && box4c.innerHTML=="o"){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box6c.innerHTML=="" && box5c.innerHTML=="o" && box4c.innerHTMl=="o"){
+         box6c.innerHTML = "o";
+         box6c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box2c.innerHTML=="o" && box3c.innerHTML==""){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box2c.innerHTML=="" && box3c.innerHTML=="o"){
+         box2c.innerHTML = "o";
+         box2c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box2c.innerHTML=="o" && box3c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="o" && box8c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="o" && box8c.innerHTML=="" && box9c.innerHTML=="o"){
+         box8c.innerHTML = "o";
+         box8c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="" && box8c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box4c.innerHTML=="o" && box7c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box4c.innerHTML=="" && box7c.innerHTML=="o"){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box4c.innerHTML=="o" && box7c.innerHTML==""){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="" && box5c.innerHTML=="o" && box8c.innerHTML=="o"){
+         box2c.innerHTML = "o";
+         box2c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="o" && box5c.innerHTML=="" && box8c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="o" && box5c.innerHTML=="o" && box8c.innerHTML==""){
+         box8c.innerHTML = "o";
+         box8c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="" && box6c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box6c.innerHTML=="" && box9c.innerHTML=="o"){
+         box6c.innerHTML = "o";
+         box6c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box6c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box5c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box5c.innerHTML=="" && box9c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box5c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="" && box5c.innerHTML=="o" && box7c.innerHTML=="o"){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box5c.innerHTML=="" && box7c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box5c.innerHTML=="o" && box7c.innerHTML==""){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="x" && box9c.innerHTML==""){
          box9c.innerHTML = "o";
          box9c.style.pointerEvents="none";
       }else if(box3c.innerHTML=="" && box9c.innerHTML=="x"){
@@ -645,7 +1071,79 @@ function box7c(){
       box7c.innerHTML = "x";
       box7c.style.pointerEvents="none";
       // nested if else for computer input (07)
-      if(box1c.innerHTML=="x" && box4c.innerHTML==""){
+      if(box6c.innerHTML=="o" && box5c.innerHTML=="o" && box4c.innerHTML==""){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box6c.innerHTML=="o" && box5c.innerHTML=="" && box4c.innerHTML=="o"){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box6c.innerHTML=="" && box5c.innerHTML=="o" && box4c.innerHTMl=="o"){
+         box6c.innerHTML = "o";
+         box6c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box2c.innerHTML=="o" && box3c.innerHTML==""){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box2c.innerHTML=="" && box3c.innerHTML=="o"){
+         box2c.innerHTML = "o";
+         box2c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box2c.innerHTML=="o" && box3c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="o" && box8c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="o" && box8c.innerHTML=="" && box9c.innerHTML=="o"){
+         box8c.innerHTML = "o";
+         box8c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="" && box8c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box4c.innerHTML=="o" && box7c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box4c.innerHTML=="" && box7c.innerHTML=="o"){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box4c.innerHTML=="o" && box7c.innerHTML==""){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="" && box5c.innerHTML=="o" && box8c.innerHTML=="o"){
+         box2c.innerHTML = "o";
+         box2c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="o" && box5c.innerHTML=="" && box8c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="o" && box5c.innerHTML=="o" && box8c.innerHTML==""){
+         box8c.innerHTML = "o";
+         box8c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="" && box6c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box6c.innerHTML=="" && box9c.innerHTML=="o"){
+         box6c.innerHTML = "o";
+         box6c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box6c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box5c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box5c.innerHTML=="" && box9c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box5c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="" && box5c.innerHTML=="o" && box7c.innerHTML=="o"){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box5c.innerHTML=="" && box7c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box5c.innerHTML=="o" && box7c.innerHTML==""){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="x" && box4c.innerHTML==""){
          box4c.innerHTML = "o";
          box4c.style.pointerEvents="none";
       }else if(box1c.innerHTML=="" && box4c.innerHTML=="x"){
@@ -712,7 +1210,79 @@ function box8c(){
       box8c.innerHTML = "x";
       box8c.style.pointerEvents="none";
       // nested if else of computer input (08)
-      if(box2c.innerHTML=="x" && box5c.innerHTML==""){
+      if(box6c.innerHTML=="o" && box5c.innerHTML=="o" && box4c.innerHTML==""){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box6c.innerHTML=="o" && box5c.innerHTML=="" && box4c.innerHTML=="o"){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box6c.innerHTML=="" && box5c.innerHTML=="o" && box4c.innerHTMl=="o"){
+         box6c.innerHTML = "o";
+         box6c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box2c.innerHTML=="o" && box3c.innerHTML==""){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box2c.innerHTML=="" && box3c.innerHTML=="o"){
+         box2c.innerHTML = "o";
+         box2c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box2c.innerHTML=="o" && box3c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="o" && box8c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="o" && box8c.innerHTML=="" && box9c.innerHTML=="o"){
+         box8c.innerHTML = "o";
+         box8c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="" && box8c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box4c.innerHTML=="o" && box7c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box4c.innerHTML=="" && box7c.innerHTML=="o"){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box4c.innerHTML=="o" && box7c.innerHTML==""){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="" && box5c.innerHTML=="o" && box8c.innerHTML=="o"){
+         box2c.innerHTML = "o";
+         box2c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="o" && box5c.innerHTML=="" && box8c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="o" && box5c.innerHTML=="o" && box8c.innerHTML==""){
+         box8c.innerHTML = "o";
+         box8c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="" && box6c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box6c.innerHTML=="" && box9c.innerHTML=="o"){
+         box6c.innerHTML = "o";
+         box6c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box6c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box5c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box5c.innerHTML=="" && box9c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box5c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="" && box5c.innerHTML=="o" && box7c.innerHTML=="o"){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box5c.innerHTML=="" && box7c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box5c.innerHTML=="o" && box7c.innerHTML==""){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="x" && box5c.innerHTML==""){
          box5c.innerHTML = "o";
          box5c.style.pointerEvents="none";
       }else if(box2c.innerHTML=="" && box5c.innerHTML=="x"){
@@ -773,7 +1343,79 @@ function box9c(){
       box9c.innerHTML = "x";
       box9c.style.pointerEvents="none";
       // nested if else for computer input (09)
-      if(box1c.innerHTML=="x" && box5c.innerHTML==""){
+      if(box6c.innerHTML=="o" && box5c.innerHTML=="o" && box4c.innerHTML==""){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box6c.innerHTML=="o" && box5c.innerHTML=="" && box4c.innerHTML=="o"){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box6c.innerHTML=="" && box5c.innerHTML=="o" && box4c.innerHTMl=="o"){
+         box6c.innerHTML = "o";
+         box6c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box2c.innerHTML=="o" && box3c.innerHTML==""){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box2c.innerHTML=="" && box3c.innerHTML=="o"){
+         box2c.innerHTML = "o";
+         box2c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box2c.innerHTML=="o" && box3c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="o" && box8c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="o" && box8c.innerHTML=="" && box9c.innerHTML=="o"){
+         box8c.innerHTML = "o";
+         box8c.style.pointerEvents = "none";
+      }else if(box7c.innerHTML=="" && box8c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box4c.innerHTML=="o" && box7c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box4c.innerHTML=="" && box7c.innerHTML=="o"){
+         box4c.innerHTML = "o";
+         box4c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box4c.innerHTML=="o" && box7c.innerHTML==""){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="" && box5c.innerHTML=="o" && box8c.innerHTML=="o"){
+         box2c.innerHTML = "o";
+         box2c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="o" && box5c.innerHTML=="" && box8c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box2c.innerHTML=="o" && box5c.innerHTML=="o" && box8c.innerHTML==""){
+         box8c.innerHTML = "o";
+         box8c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="" && box6c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box6c.innerHTML=="" && box9c.innerHTML=="o"){
+         box6c.innerHTML = "o";
+         box6c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box6c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="" && box5c.innerHTML=="o" && box9c.innerHTML=="o"){
+         box1c.innerHTML = "o";
+         box1c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box5c.innerHTML=="" && box9c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="o" && box5c.innerHTML=="o" && box9c.innerHTML==""){
+         box9c.innerHTML = "o";
+         box9c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="" && box5c.innerHTML=="o" && box7c.innerHTML=="o"){
+         box3c.innerHTML = "o";
+         box3c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box5c.innerHTML=="" && box7c.innerHTML=="o"){
+         box5c.innerHTML = "o";
+         box5c.style.pointerEvents = "none";
+      }else if(box3c.innerHTML=="o" && box5c.innerHTML=="o" && box7c.innerHTML==""){
+         box7c.innerHTML = "o";
+         box7c.style.pointerEvents = "none";
+      }else if(box1c.innerHTML=="x" && box5c.innerHTML==""){
          box5c.innerHTML = "o";
          box5c.style.pointerEvents="none";
       }else if(box1c.innerHTML=="" && box5c.innerHTML=="x"){
@@ -884,10 +1526,10 @@ function winnerc(){
          turnc.innerHTML = "You Won The Game";
    }else if(box1c.innerHTML=="x" && box5c.innerHTML=="x" && box9c.innerHTML=="x"){
       // for "\" this type of line
-         turn.innerHTML = "You Won The Game";
+         turnc.innerHTML = "You Won The Game";
    }else if(box3c.innerHTML=="x" && box5c.innerHTML=="x" && box7c.innerHTML=="x"){
       // for "/" this type of line
-         turn.innerHTML = "You Won The Game";
+         turnc.innerHTML = "You Won The Game";
    }else if(box1c.innerHTML=="o" && box2c.innerHTML=="o" && box3c.innerHTML=="o"){
      // cases if player o win
       // for first row
@@ -912,7 +1554,7 @@ function winnerc(){
          turnc.innerHTML = "You Loose The Game";
    }else if(box3c.innerHTML=="o" && box5c.innerHTML=="o" && box7c.innerHTML=="o"){
       // for "/" this type of line
-         turn.innerHTML = "You Loose The Game";
+         turnc.innerHTML = "You Loose The Game";
    }else if(box1c.innerHTML!=="" && box2c.innerHTML!==""&&box3c.innerHTML!==""&&box4c.innerHTML!==""&&box5c.innerHTML!==""&&box6c.innerHTML!==""&&box7c.innerHTML!==""&&box8c.innerHTML!==""&&box9c.innerHTML!==""){
       turnc.innerHTML = "Draw";
    };
