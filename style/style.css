@@ -1,0 +1,122 @@
+.game_area{
+    max-height:500px;
+    max-width:340px;
+    margin-top:5%;
+}
+.main_game{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.turn{
+    color:white;
+}
+.game_container{
+    height:100px; width:100px;
+    border:1px solid white;
+    color:white;
+    font-size:45px;
+    text-align:center;
+}
+
+body{
+    background-image:url("../images/woodenbackground1.jpg");
+}
+.popup_modal{
+    background-image:url("../images/game_over_background.png");
+    background-size:100%;
+    max-height:500px;
+}
+.game_btn{
+    background-image:url("../images/game_over_background.jfif");
+    min-width:300px;
+    font-weight:700;
+}
+.mute_btn{
+    background-image: url("../images/game_over_background.jfif");
+
+}
+.game_control{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.one{
+    border-top:none;
+    border-left:none;
+}
+.two{
+    border-top:none;
+}
+.three{
+    border-top:none;
+    border-right:none;
+}
+.four{
+    border-left:none;
+}
+.six{
+    border-right:none;
+}
+.seven{
+    border-left:none;
+    border-bottom:none;
+}
+.eight{
+    border-bottom:none;
+}
+.nine{
+    border-bottom:none;
+    border-right:none;
+}
+@keyframes rotate_logo {
+    0%{
+        transform:rotate(0deg);
+    }
+    25%{
+        transform:rotate(30deg);
+    }
+    50%{
+        transform:rotate(-30deg);
+    }
+    75%{
+        transform:rotate(30deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
+.game_logo{
+    height:110px;
+    width:auto;
+    animation-name:rotate_logo;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+.game_result{
+    background-image:url("../images/game_over_background.jfif");
+    border-radius:10px;
+    max-width:500px;
+    max-height:500px;
+    position: absolute;
+    top: 5px;
+    padding:20px;
+}
+.stars{
+    width:200px;
+    margin-left:20%;
+}
+.result_btn{
+    background-image:url("../images/woodenbackground1.jpg");
+    color:white;
+}
+.result_btn:hover{
+    color:white;
+}
+.thinking{
+    position: absolute;
+    top: 5%;
+    text-align: center;
+}
